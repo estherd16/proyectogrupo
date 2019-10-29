@@ -1,8 +1,30 @@
 import React from 'react'
+import './lista.css'
 
-const Listas =()=>{
+const Listas =(props)=>{
+    const { listado } = props;
     return(
+        <div className="ogt">
+            {
+                listado.map(
+                    (item) => {
 
+                        return (
+                            <div
+                                key={item.id}
+                                className='producto'>
+                            
+                                <img src= {item.imagen}/>
+                                <p>{item.tipo}</p>
+                                <p>{item.precio}</p>
+                                <p>{item.telefono}</p>
+                            </div>
+                        );
+
+                    }
+                )
+            }
+        </div>
     )
 }
 

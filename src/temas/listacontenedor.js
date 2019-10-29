@@ -1,36 +1,51 @@
 import React, { Component } from 'react';
+import Lista from './listas'
 
 class Listascont extends Component {
     constructor(props) {
         super(props);
 
-        const estudiantes = [
+        const producto = [
             {
-                nombre: 'Esther',
-                apellidos: 'Duarte',
-                edad: 20,
+                imagen: require('././../assets/a1.jpg'),
+                tipo: 'casa',
+                precio: '$12000',
+                telefono: '87559911',
+                id: '1234'
+               
             },
             {
-                nombre: 'Selena',
-                apellidos: 'Gómez',
-                edad: 20,
+                imagen: require('././../assets/a2.jpg'),
+                tipo: 'casa',
+                precio: '$14000',
+                telefono: '87749921',
+                id: '12345'
             },
             {
-                nombre: 'Jehovany',
-                apellidos: 'Romero',
-                edad: 26,
+                imagen: require('././../assets/a3.jpg'),
+                tipo: 'casa',
+                precio: '$22000',
+                telefono: '87859951',
+                id: '123456'
+            },
+            {
+                imagen: require('././../assets/a4.jpg'),
+                tipo: 'casa',
+                precio: '$34000',
+                telefono: '83546188',
+                id: '12347'
             },
         ];
 
         this.state = {
-            datos: estudiantes,
+            datos: producto,
         };
     }
 
     render() {
         const { datos } = this.state;
         return (
-            <Estudiantes
+            <Lista
                 listado={datos}
             />
         );
