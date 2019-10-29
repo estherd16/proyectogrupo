@@ -1,0 +1,30 @@
+
+.a{
+    background-color: lightblue;
+    width: 90%;
+    margin: 50px;;
+}
+
+div>p{
+    width: auto;
+    text-align: justify;
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    width: 500px;
+    margin-top: 6rem;
+    margin-left: 8rem;
+}
+
+p{
+    display: block;
+    margin-left: 50%;
+    transform: translate(0px,-250px);    
+}
+
+.info{
+    margin-right: 30%;
+    font-weight: bolder;
+}
