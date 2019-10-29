@@ -39,13 +39,19 @@ class Listascont extends Component {
 
         this.state = {
             datos: producto,
-        };
+            color: 'focus'
+        }
+    }
+    selecciona =(valor)=>{
+        this.state({colo:valor})
     }
 
     render() {
-        const { datos } = this.state;
+        const { datos, color } = this.state;
         return (
             <Lista
+                color = {color}
+                selecciona ={this.selecciona}
                 listado={datos}
             />
         );

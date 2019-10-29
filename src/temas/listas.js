@@ -15,9 +15,13 @@ const Listas =(props)=>{
                                 className='producto'>
                             
                                 <img src= {item.imagen}/>
+                                <div className ="capa">
                                 <p>{item.tipo}</p>
                                 <p>{item.precio}</p>
                                 <p>{item.telefono}</p>
+                                </div>
+                                
+                                
                             </div>
                         );
 
