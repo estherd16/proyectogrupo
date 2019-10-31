@@ -1,33 +1,44 @@
 import React from 'react'
+import Header from './../frontend/Tema/encabezado';
+import Footer from './../frontend/Tema/pie';
 import './lista.css'
 
 const Listas =(props)=>{
     const { listado } = props;
     return(
         <div className="ogt">
+            <Header/>
             {
                 listado.map(
                     (item) => {
-
+                        
                         return (
-                            <div
-                                key={item.id}
-                                className='producto'>
-                            
-                                <img src= {item.imagen}/>
-                                <div className ="capa">
-                                <p>{item.tipo}</p>
-                                <p>{item.precio}</p>
-                                <p>{item.telefono}</p>
+                            <section>
+
+                                
+                                <div
+
+                                    key={item.id}
+                                    className='producto'>
+                                
+                                    <img src= {item.imagen}/>
+                                    <div className ="capa">
+                                    <p>{item.tipo}</p>
+                                    <p>{item.precio}</p>
+                                    <p>{item.telefono}</p>
+                                    </div>
+                                    
+                                    
                                 </div>
                                 
-                                
-                            </div>
+                            </section>
                         );
-
+                        
                     }
+
                 )
             }
+            <Footer/>
         </div>
     )
 }
