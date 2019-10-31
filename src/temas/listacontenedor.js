@@ -50,7 +50,7 @@ class Listascont extends Component {
                 telefono: 'Telefono: 83546788',
                 propietario:'Dueño: El cejas',
                 direccion: 'Direccion: Ni idea',
-                id: '12347'
+                id: '12'
             },
             {
                 imagen: require('././../assets/a6.jpg'),
@@ -59,7 +59,7 @@ class Listascont extends Component {
                 telefono: 'Telefono: 83546188',
                 propietario:'Dueño: Spartan 117',
                 direccion: 'Direccion: UNSSC',
-                id: '12347'
+                id: '11'
             },
         ];
 

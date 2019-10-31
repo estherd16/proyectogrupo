@@ -13,7 +13,7 @@ const Listas =(props)=>{
                     (item) => {
                         
                         return (
-                            <section className='producto'>
+                            <section className='producto'> 
 
                                 
                                 <div
