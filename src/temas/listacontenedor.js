@@ -43,23 +43,38 @@ class Listascont extends Component {
                 direccion: 'Direccion: Ella no te ama',
                 id: '12347'
             },
+            {
+                imagen: require('././../assets/a5.jpg'),
+                tipo: 'casa',
+                precio: 'Precio: $34040',
+                telefono: 'Telefono: 83546788',
+                propietario:'Dueño: El cejas',
+                direccion: 'Direccion: Ni idea',
+                id: '12347'
+            },
+            {
+                imagen: require('././../assets/a6.jpg'),
+                tipo: 'casa',
+                precio: 'Precio: $34000',
+                telefono: 'Telefono: 83546188',
+                propietario:'Dueño: Spartan 117',
+                direccion: 'Direccion: UNSSC',
+                id: '12347'
+            },
         ];
 
         this.state = {
             datos: producto,
-            color: 'focus'
+            
         }
     }
-    selecciona =(valor)=>{
-        this.state({colo:valor})
-    }
+    
 
     render() {
-        const { datos, color } = this.state;
+        const { datos} = this.state;
         return (
             <Lista
-                color = {color}
-                selecciona ={this.selecciona}
+               
                 listado={datos}
             />
         );

@@ -11,10 +11,10 @@ const Encabezado = () => {
             />
         <nav>
              <ul>
-                <li><a >Inicio</a></li>
-                <li><a >Contacto</a></li>
-                <li><a >vista</a></li>
-                <li><a >vista2</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">vista</a></li>
+                <li><a href="#">vista2</a></li>
             </ul>
         </nav>
     </header>

@@ -13,13 +13,13 @@ const Listas =(props)=>{
                     (item) => {
                         
                         return (
-                            <section>
+                            <section className='producto'>
 
                                 
                                 <div
 
                                     key={item.id}
-                                    className='producto'>
+                                    >
                                 
                                     <img src= {item.imagen}/>
                                     <div className ="capa">
