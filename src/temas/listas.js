@@ -26,6 +26,8 @@ const Listas =(props)=>{
                                     <p>{item.tipo}</p>
                                     <p>{item.precio}</p>
                                     <p>{item.telefono}</p>
+                                    <p>{item.propietario}</p>
+                                    <p>{item.direccion}</p>
                                     </div>
                                     
                                     

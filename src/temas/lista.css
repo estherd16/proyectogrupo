@@ -1,19 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .ogt {
+    
     width: 100%;
-    display: inline-flex;
+    margin:  10%;
+    display: inline-block;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .producto {
+    float: left;
     background: #673ab7;
     padding: 0px;
     width: 30%;
     box-sizing: border-box;
-    margin: 8px;
+    margin: 60px 10px;
     position: relative;
+    overflow: hidden;
 }
+
 
 .producto img {
     width: 100%;
@@ -23,7 +32,7 @@
 
 .producto p {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 .capa{
     height: 100%;
@@ -31,4 +40,11 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
     bottom: 0;
+    transform: translateY(100%);
+    transition: all 0.5s ease-out;
+    text-align: center;
+}
+
+.producto:hover .capa{
+transform: translateY(0%);
 }
