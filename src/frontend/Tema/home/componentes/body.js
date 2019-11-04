@@ -17,7 +17,7 @@ const body = (props) => {
                     <div className = "cuerpo center">
                         <p className = "text">
                             MINI REAL STATE les ofrece una variedad de casas 
-                            a todo tipo de precios,  donde puedes ver sus caracteristicas y asi optar por la que desees. 
+                            a todo tipo de precios, donde puedes ver sus caracteristicas y asi optar por la que desees. 
                         </p>
                         <p className = "text">
                             Nosotros somos agentes de Bienes raices de Nicaragua ofreciendo casas en ventas y alquiler de todo tipo. 
