@@ -1,0 +1,25 @@
+.row{
+right: 0;
+left: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.cuerpo{
+flex: 1;
+height: 150px;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+background-color: rgba(0,0,100,.8);
+}
+
+.text{
+    color: white;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

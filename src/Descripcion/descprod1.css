@@ -1,0 +1,94 @@
+
+/*.a{
+    background-color: lightblue;
+    width: 90%;
+    margin: 50px;;
+}
+
+div>p{
+    width: auto;
+    text-align: justify;
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    width: 500px;
+    margin-top: 6rem;
+    margin-left: 8rem;
+}
+
+p{
+    display: block;
+    margin-left: 50%;
+    transform: translate(0px,-250px);    
+}
+
+.info{
+    margin-right: 30%;
+    font-weight: bolder;
+}
+*/
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.ContentInfo{
+
+    position: absolute;
+    background-color: rgb(218, 212, 212);
+}
+
+.ImgInf{
+
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right:40px;
+    padding: 10px;
+    float: left;
+}
+.AllInf{
+
+    margin-bottom: 10px;
+}
+.Descrip{
+
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    margin: 50px 0px 80px 0px;
+    text-align: justify;
+}
+
+.Relevant{
+
+    margin-left: 40px;
+    font-weight: bolder;
+    margin-bottom: 90px;
+}
+
+.Carac{
+    padding: 30px 30px 30px 30px;
+    background-color: slategrey;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.ImgCarac{
+
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.InfCarac{
+
+    margin-right: 40px;
+}
+
